@@ -67,3 +67,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+  # 格式要求特别严
+  fonts:
+    -  family: appIconFonts
+       fonts:
+         -  asset: assets/fonts/iconfont.ttf

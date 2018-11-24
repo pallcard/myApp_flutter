@@ -1,6 +1,6 @@
 # myapp
 
-A new Flutter application.
+学习flutter，按照网上视频，复刻微信
 
 ## Getting Started
 
