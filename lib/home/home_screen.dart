@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './constants.dart' show AppColors;
-import './constants.dart' show Constants;
+import 'package:myapp/constants.dart' show AppColors;
+import 'package:myapp/constants.dart' show Constants;
+import './conversationPage.dart';
 
 
 enum ActionItems {
@@ -99,7 +100,8 @@ class _HomeScreenState extends State<HomeScreen> {
     _pageController = PageController(initialPage: _currentIndex);
 
     _pages = [
-      Container(color: Colors.red,),
+//      Container(color: Colors.red,),
+      ConversationPage(),
       Container(color: Colors.blue,),
       Container(color: Colors.white,),
       Container(color: Colors.green,),
